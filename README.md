@@ -6,4 +6,4 @@ Una calculadora basica con las operaciones:
 - Resta
 - Division
 - Multiplicacion
-- Potencia
+
