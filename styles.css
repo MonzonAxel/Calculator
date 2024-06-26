@@ -16,17 +16,20 @@ body{
 
 .visor{
     color: white;
-    margin-right: 10px;
+    border-bottom: 1px solid white;
 }
 
 .screen{
+    font-size: 30px;
     margin-top: 60px;
+    margin-bottom: 10px;
     text-align: right;
-    height: 50px;
     padding: 5px;
+    overflow: auto;
 }
 
 .calculator{
+    max-width: 270px;
     background-color: black;
     border: 3px solid white;
     border-radius: 5px;
@@ -37,7 +40,8 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    margin:10px
+    margin:10px;
+
 }
 
 .button{
